@@ -1,0 +1,6 @@
+---
+- name: Play to install nginx using imported tasks
+  hosts: rs1
+  tasks:
+    - import_tasks: install_nginx.task
+    - import_tasks: start_nginx.task

@@ -1,0 +1,3 @@
+- hosts: rs2
+  roles:
+    - { role: geerlingguy.nginx }
